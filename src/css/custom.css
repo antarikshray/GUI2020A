@@ -1,0 +1,100 @@
+.window{
+   background-color:#e5e3e8;
+   transition: background-color 2s; 
+}
+.row .col-md-6{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.row .col-md-6 span{
+    padding-left: 10px;
+    font-size: 110%;
+}
+
+.col-md-2{
+    width:100%;
+}
+
+.row .col-md-12{
+    margin-top:10px;
+    margin-bottom:5px;  
+}
+
+.lat {
+    padding-left:20px;
+    padding-bottom:5px; 
+}
+
+.long{
+    padding-left:20px;
+    padding-bottom:5px; 
+}
+
+.compass {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #444;
+    overflow: hidden;
+}
+
+.compass div {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    width: 110px;
+    height: 110px;
+    background-size: 100%;
+}
+
+.compass .arrow {
+    z-index: 1000;
+    background-image: url("../images/needle2.png");
+}
+
+.compass .bearing {
+    z-index: 900;
+    background-image: url("../images/needle3.png");
+}
+
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-block;
+}
+
+.butn-info{
+    background-color: #5469a8;
+    color: #ffffff;
+    height: 30px;
+}
+
+.butn-default{
+    background-color: #525a75;
+    color: #ffffff;
+}
+
+.butn-success{
+    background-color: #54db6a;
+    color: #ffffff;
+}
+
+.butn-err{
+    background-color: #661b1b;
+    color: #ffffff;
+}
+
+.butn-danger{
+    background-color: #df2525;
+    color: #ffffff;
+}
+
+.custom-range{
+    color: #5469a8;
+}
